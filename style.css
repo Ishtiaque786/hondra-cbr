@@ -1,14 +1,18 @@
 /* Poppins font */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+html,
 body {
   font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
 }
 
 /* header section */
 .header-bg-color {
   background-color: #264653;
 }
-.header-text {
+.header-text,
+.carousel-text {
   color: #ffffff;
 }
 
@@ -37,7 +41,6 @@ span {
   height: 243px;
   margin-top: 120px;
   margin-bottom: 165px;
-  /* margin-right: 138px; */
 }
 .grayscale {
   filter: grayscale(100%);
@@ -62,4 +65,10 @@ span {
 }
 .client-job {
   color: #252b42;
+}
+
+/* upcoming bike section  */
+.upcoming-img {
+  width: 400px;
+  height: 300px;
 }
